@@ -1,0 +1,22 @@
+#outerWrapper {
+	background-color: #CFCFCF;
+
+	#innerWrapper {
+		#headerWrapper {
+			@import 'header.scss';
+		}
+
+		#contentWrapper {			
+			@import 'content.scss';
+			
+		}
+
+		#footerWrapper {
+			@import 'footer.scss';
+		}
+	}
+}
+
+
+
+
