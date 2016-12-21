@@ -1,18 +1,26 @@
-#outerWrapper {
-	background-color: #CFCFCF;
+body, html {
+	margin: 0;
+}
 
+#outerWrapper {
+	margin: 0;
+	background-color: #CFCFCF;
 	#innerWrapper {
+		position: relative;
+
 		#headerWrapper {
 			@import 'header.scss';
 		}
 
-		#contentWrapper {			
+		#contentWrapper {		
 			@import 'content.scss';
-			
 		}
 
 		#footerWrapper {
 			@import 'footer.scss';
+			position: absolute;
+			bottom: 0;
+			width: 100%
 		}
 	}
 }
